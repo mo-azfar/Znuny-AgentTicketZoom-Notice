@@ -16,4 +16,14 @@
             </Hash>
         </Value>
     </Setting>
+    <Setting Name="Ticket::Frontend::TicketZoomNoticeHighlight" Required="0" Valid="1">
+        <Description Translatable="1">Highlight Customer menu tab if customer is invalid.</Description>
+        <Navigation>Frontend::Agent::View::TicketZoom</Navigation>
+        <Value>
+            <Item ValueType="Select" SelectedID="1">
+                <Item ValueType="Option" Value="1">Enabled</Item>
+                <Item ValueType="Option" Value="0">Disabled</Item>
+            </Item>
+        </Value>
+    </Setting>
 </otrs_config>
